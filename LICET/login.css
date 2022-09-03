@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #66FCF1;
+    font-family: 'Dosis';
+}
+body{
+    background-color: black;
+}
+form{ 
+    text-align: center;
+    margin-top:8%;
+    padding:0;
+
+}
+
+header{
+    background-color: #66FCF1;
+}
+h1{
+    word-spacing: 10px; 
+    padding-left: 10px;
+    padding-top: 15px;
+    font-weight:bolder;
+    color: black;
+}
+
+#reg{
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    margin-bottom: 2%;
+    font-size: 250%;
+}
+
+body a{
+    text-decoration: none;
+}
+#navbar{
+    float: right;    
+}
+#navbar li{
+    display:inline-block;
+    padding: 10px;
+    list-style: none;
+    font-size: large;
+}
+#login{
+    margin-right: 15px;
+}
+#licet{
+    float: left;
+    height: 80px;
+    width: 80px;
+    margin: 15px;
+
+}
+a:visited, a:link{
+    color:#66FCF1;
+}
+
+input[type=text]:focus {
+    border: #66FCF1;
+}
